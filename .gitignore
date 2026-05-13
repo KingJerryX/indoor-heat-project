@@ -1,0 +1,26 @@
+# Dependencies
+frontend/node_modules/
+
+# Build output
+frontend/dist/
+frontend/tsconfig.tsbuildinfo
+
+# Generated floor plan PNGs (regenerate with: python scripts/pdf_to_png.py)
+frontend/public/floorplans/
+
+# Env files
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude Code local settings
+.claude/settings.local.json
+.claude/worktrees/
